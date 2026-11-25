@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Navbar from "@/components/interactive/Navbar";
 import Footer from "@/components/sections/Footer";
-import BackgroundWrapper from "@/components/interactive/BackgroundWrapper";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -70,7 +69,6 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark scroll-smooth">
       <body className="bg-[#090a0f] text-slate-100 font-sans antialiased selection:bg-violet-600 selection:text-white">
-        <BackgroundWrapper />
         <Navbar />
         <main className="min-h-screen relative">{children}</main>
         <Footer />

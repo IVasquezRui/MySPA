@@ -71,10 +71,10 @@ export default function Lanyard({
       ctx.fillStyle = headerGrad;
       ctx.fillRect(0, 0, 512, 90);
 
-      // UNETI / Developer Header text
+      // HighTech / Developer Header text
       ctx.fillStyle = "#ffffff";
       ctx.font = "bold 26px sans-serif";
-      ctx.fillText("UNETI · INGENIERÍA", 40, 55);
+      ctx.fillText("HIGHTECH - ENGINEER", 40, 55);
 
       // Clip Slot cutout indicator at top center
       ctx.fillStyle = "#000000";

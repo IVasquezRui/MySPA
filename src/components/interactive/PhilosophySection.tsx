@@ -59,7 +59,7 @@ export default function PhilosophySection() {
             </div>
             <div className="flex flex-wrap gap-2 text-[11px] font-mono text-zinc-400">
               <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5">Velocidad 5x</span>
-              <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5">Criterio Crítico</span>
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5">Criterio</span>
             </div>
           </div>
 
@@ -79,6 +79,7 @@ export default function PhilosophySection() {
             <div className="flex flex-wrap gap-2 text-[11px] font-mono text-zinc-400">
               <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5">Zero Trust</span>
               <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5">OWASP Hardening</span>
+              <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/5">MITRE ATT&CK HARDENING</span>
             </div>
           </div>
 
